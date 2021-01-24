@@ -1,10 +1,14 @@
 import {Helmet} from "react-helmet";
 
+// files
+import '../style/css/style.css';
+import '../style/css/bootstrap.min.css';
 
 // Custom Componet
 import ContactUspage from '../pages/contact/index.jsx';
-import '../style/css/style.css';
-import '../style/css/bootstrap.min.css';
+import BlogPage from "../pages/blog/index.jsx";
+import ProductPage from "../pages/product";
+
 
 
 function App() {
@@ -25,7 +29,9 @@ function App() {
         <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"></link>
       </Helmet>
 
-      <ContactUspage/>
+      <ProductPage />
+      {/* <BlogPage/> */}
+      {/* <ContactUspage/> */}
     </div>
   );
 }

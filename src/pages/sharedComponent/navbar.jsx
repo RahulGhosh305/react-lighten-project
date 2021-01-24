@@ -7,6 +7,7 @@ import Logo from '../../assets/images/logo.jpg';
 class Navbar extends React.Component {
     render() {
         return <div>
+            {/* Navbar start */}
             <div class="container">
                 <div class="row">
                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
@@ -37,6 +38,7 @@ class Navbar extends React.Component {
                     </div>
                 </div>
             </div>
+            {/* Navbar End */}
         </div>
     }
 }
