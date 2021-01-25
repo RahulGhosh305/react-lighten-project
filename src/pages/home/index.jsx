@@ -9,7 +9,7 @@ import Banner from '../home/banner.jsx';
 import WhyChooseUs from '../sharedComponent/WhyChooseUs.jsx';
 import ServiceProces from '../sharedComponent/serviceProces.jsx';
 import ProductContainer from '../product/productContainer.jsx';
-import Map from '../sharedComponent/map.jsx';
+import Map from './map.jsx';
 import Footer from '../sharedComponent/footer.jsx';
 
 

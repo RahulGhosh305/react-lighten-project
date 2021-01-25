@@ -7,7 +7,7 @@ import Topbar from '../sharedComponent/topbar.jsx';
 import Navbar from '../sharedComponent/navbar.jsx';
 import YellowBackgroundTitle from '../sharedComponent/yellow-bg-title.jsx';
 import Footer from '../sharedComponent/footer.jsx';
-import BlogPageCard from './blogCard.jsx';
+import BlogPageCard from './blogPageCard.jsx';
 import '../../style/css/bootstrap.min.css';
 
 // Assets
