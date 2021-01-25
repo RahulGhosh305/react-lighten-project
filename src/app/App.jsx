@@ -4,13 +4,8 @@ import {Helmet} from "react-helmet";
 import '../style/css/style.css';
 import '../style/css/bootstrap.min.css';
 
-// Custom Componet
-import ContactUspage from '../pages/contact/index.jsx';
-import BlogPage from "../pages/blog/index.jsx";
-import ProductPage from "../pages/product";
-import AboutPage from '../pages/about/index.jsx';
-
-
+// Route
+import AppRoute from './route.jsx';
 
 function App() {
   return (
@@ -30,10 +25,8 @@ function App() {
         <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"></link>
       </Helmet>
 
-      <AboutPage />
-      {/* <ProductPage /> */}
-      {/* <BlogPage/> */}
-      {/* <ContactUspage/> */}
+      <AppRoute />
+
     </div>
   );
 }

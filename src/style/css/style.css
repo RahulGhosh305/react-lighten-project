@@ -19,8 +19,8 @@
 /*---------------------------------------------------------------------
     import Files
 ---------------------------------------------------------------------*/
-/* 
-@import url(animate.min.css);
+
+/* @import url(animate.min.css);
 @import url(normalize.css);
 @import url(meanmenu.css);
 @import url(owl.carousel.min.css);
@@ -1700,11 +1700,15 @@ font-size: 18px;
 }
 
 .relative {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
+	position: absolute !important;
+	top: 10% !important;
+	transform: translateY(-10%);
 	bottom: auto;
-	text-align: left;
+	text-align: left !important;
+	-webkit-transform: translateY(-10%);
+	-moz-transform: translateY(-10%);
+	-ms-transform: translateY(-10%);
+	-o-transform: translateY(-10%);
 }
 
 .banner-main {
@@ -1725,13 +1729,13 @@ font-size: 18px;
 .banner-main .carousel-caption a {
     width: 250px;
 background: #ffc221;
-padding: 9px 0px;
-color: #fff;
+padding: 12px 0px;
+color: #fff !important;
 font-size: 17px;
 border-radius: 30px 0px 30px 30px;
 display: inline-block;
 text-align: center;
-margin-top: 20px;
+margin-top: 5px;
 
 }
 .banner-main .carousel-caption a:hover {
@@ -2003,7 +2007,8 @@ margin-top: 20px;
 
 .yellow_bg {background: #ffc221; 
 	padding: 40px 30px; 
-	margin-top: 100px;
+	/* margin-top: 100px; */
+	margin: 100px 0px;
 }
 
 .yellow_bg .yellow-box h3 {
@@ -2027,7 +2032,7 @@ margin-top: 20px;
     width: 100%;
     font-size: 31px;
     line-height: 33px;
-    color: #fff;
+    color: #fff !important;
     padding: 16px 73px;
     display: inline-block;
     text-align: center;
@@ -2050,7 +2055,7 @@ margin-top: 20px;
 }
 
 .padi {
-	padding: 0px ;
+	padding: 0px !important;
 }
 
 /** end map section **/
