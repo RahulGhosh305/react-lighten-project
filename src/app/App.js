@@ -8,6 +8,7 @@ import '../style/css/bootstrap.min.css';
 import ContactUspage from '../pages/contact/index.jsx';
 import BlogPage from "../pages/blog/index.jsx";
 import ProductPage from "../pages/product";
+import AboutPage from '../pages/about/index.jsx';
 
 
 
@@ -29,7 +30,8 @@ function App() {
         <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"></link>
       </Helmet>
 
-      <ProductPage />
+      <AboutPage />
+      {/* <ProductPage /> */}
       {/* <BlogPage/> */}
       {/* <ContactUspage/> */}
     </div>
